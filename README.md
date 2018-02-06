@@ -18,7 +18,7 @@ There is a spectrum of responsive web plotting options that I am aware of, in th
 We are going to make an app in Flask that makes a chart based on URL data and serves it to the page.
 
 ## Setting up a virtual environment
-Set up a virtual environment for your app. I'm doing this on ubuntu 17.10 in Bash, but it should work on OSX/Windows. You could use pipenv or pyenv or conda to do this too, but I'll stick with the built-in venv. 
+Set up a virtual environment for your app. I'm doing this on ubuntu 17.10 with Python 3.6.4, but it should work on OSX/Windows. You could use pipenv or pyenv or conda to do this too, but I'll stick with the built-in venv. 
 ```
 $ mkdir flask-matplotlib-tutorial
 $ cd flask-matplotlib-tutorial
@@ -36,6 +36,11 @@ make a setup.py
 $ pip install -e .
 ```
 ### run.py
+make a run.py
+```
+(env)$ python run.py
+```
+
 ### \_\_init\_\_.py
 
 
@@ -50,3 +55,5 @@ I recently discovered that f-strings and matplotlib labels/titles/annotations ar
 (env)$ python run.py 
 ```
 Navigate to http://localhost:5000/200 to see 200 data points! Change the number in the URL to see a different number of points.
+
+[A Plot](images/a_good_plot.png)
