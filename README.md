@@ -41,7 +41,9 @@ $ pip install -e .
 
 ## Creating a view
 ## Plotting to svg
-This is going to plot to svg, but we could plot to any image format like png or jpg
+This is going to plot to svg, but we could plot to any image format like png or jpg.
+## Plotting
+I recently discovered that f-strings and matplotlib labels/titles/annotations are pretty great.
 
 ## Running the app
 ```
