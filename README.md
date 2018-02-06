@@ -56,4 +56,4 @@ I recently discovered that f-strings and matplotlib labels/titles/annotations ar
 ```
 Navigate to http://localhost:5000/200 to see 200 data points! Change the number in the URL to see a different number of points.
 
-[A Plot](images/a_good_plot.png)
+![A Plot](images/a_good_plot.png)
